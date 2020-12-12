@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///node_modules/tailwindcss/base.css","webpack:///node_modules/tailwindcss/components.css","webpack:///node_modules/tailwindcss/utilities.css"],"names":[],"mappings":"AAAA,cAAS;ACAT,oBAAS;ACAT,mBAAS","file":"css/editor.css","sourcesContent":["@tailwind base;\n","@tailwind components;\n","@tailwind utilities;\n"],"sourceRoot":""}
