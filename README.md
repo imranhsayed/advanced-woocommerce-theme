@@ -2,9 +2,9 @@
 [![Project Status: Active.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 * A WooCommerce theme Project for Advanced WooCommerce Theme Development Course.
-This theme uses Bootstrap. [Learn](https://www.youtube.com/playlist?list=PLD8nQCAhR3tT3ehpyOpoYeUj3KHDEVK9h) to build an Advanced WordPress Theme from scratch
+This theme uses Tailwindcss. [Learn](https://www.youtube.com/playlist?list=PLD8nQCAhR3tR3ZzS4ie2ylGdVM_mPpUkm) to build an Advanced WordPress Theme from scratch
 
-## [Tutorial Course](https://codeytek.com/course/advanced-wordpress-theme-development-course/)
+## [Tutorial Course](https://www.youtube.com/playlist?list=PLD8nQCAhR3tR3ZzS4ie2ylGdVM_mPpUkm)
 
 ## Features
 
@@ -12,6 +12,13 @@ This theme uses Bootstrap. [Learn](https://www.youtube.com/playlist?list=PLD8nQC
 - Single Product Page
 - Custom Cart Page
 - Custom Checkout Page
+
+## Uses
+
+- TailwindCSS
+- Webpack
+- Babel
+- Sass
 
 ## Maintainer
 
@@ -33,7 +40,7 @@ themes directory and activate it.
 Clone the repo and run
 
 ```bash
-cd aquila/assets
+cd advanced-woocommerce-theme/assets
 npm install
 ```
 
