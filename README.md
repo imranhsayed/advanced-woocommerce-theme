@@ -1,4 +1,4 @@
-# [Advanced WooCommerce Theme](https://youtu.be/lNtw4yxEydM) 🎨
+# [Advanced WooCommerce Theme](https://youtu.be/lNtw4yxEydM) 🛍️
 [![Project Status: Active.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 * A WooCommerce theme Project for Advanced WooCommerce Theme Development Course.
