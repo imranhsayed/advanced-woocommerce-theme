@@ -15,7 +15,8 @@ const IMG_DIR   = path.resolve(__dirname, 'src/img')
 const BUILD_DIR = path.resolve(__dirname, 'build')
 
 const entry = {
-  main: JS_DIR + '/main.js'
+  main: JS_DIR + '/main.js',
+  editor: JS_DIR + '/editor.js'
 }
 
 const output = {

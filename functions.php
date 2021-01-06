@@ -45,3 +45,9 @@ function awt_register_styles() {
 	wp_register_style( 'main-css', AWT_BUILD_CSS_URI . '/main.css', [], filemtime( AWT_BUILD_CSS_DIR_PATH . '/main.css' ), 'all' );
 	wp_enqueue_style( 'main-css' );
 }
+
+// File Includes
+require_once AWT_DIR_PATH . '/classes/class-advanced-woocommerce-theme-menus.php';
+require_once AWT_DIR_PATH . '/classes/class-advanced-woocommerce-theme.php';
+new Advanced_Woocommerce_Theme();
+
