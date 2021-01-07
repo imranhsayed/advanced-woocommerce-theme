@@ -34,14 +34,21 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
 			</button>
 		</div>
 		<div class="h-0 w-full overflow-hidden lg:h-full flex-grow lg:flex lg:items-center lg:w-auto">
-			<div class="text-sm font-medium uppercase lg:flex-grow"><a
-						class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10"
-						href="/categories/">Categories</a><a
-						class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10"
-						href="/">Women</a><a
-						class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10" href="/">Kids</a><a
-						class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10" href="/">Home &amp;
-					Living</a><a class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10" href="/">Offers</a>
+			<div class="text-sm font-medium uppercase lg:flex-grow">
+				<?php
+
+					if ( ! empty( $header_menus ) && is_array( $header_menus ) ) {
+						foreach ( $header_menus as $header_menu ) {
+							printf(
+								'<a class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10" href="%1$s">%2$s</a>',
+								esc_url( $header_menu->url ),
+								esc_html( $header_menu->title )
+							);
+						}
+
+					}
+				?>
+
 			</div>
 			<div class="text-sm font-medium"><a href="#responsive-header"
 			                                    class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
