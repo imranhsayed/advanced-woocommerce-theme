@@ -1,0 +1,29 @@
+.main-title {
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		bottom: 50%;
+		left: 0;
+		height: 2px;
+		width: 50%;
+		background: $gray-dark;
+		z-index: -1;
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: 50%;
+		right: 0;
+		height: 2px;
+		width: 50%;
+		background: $gray-dark;
+		z-index: -1;
+	}
+
+	.main-title-inner {
+		padding: 0 20px;
+		background: $white;
+	}
+}
