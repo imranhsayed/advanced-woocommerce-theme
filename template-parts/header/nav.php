@@ -52,7 +52,7 @@ $header_menus   = wp_get_nav_menu_items( $header_menu_id );
 					<div class="ml-1 md:ml-0">
 						Profile
 					</div>
-					</a>
+				</a>
 				<a href="#responsive-header" class="block mt-4 flex items-center md:flex-col lg:mt-0 text-black hover:text-black mr-10">
 					<img width="18" height="18" src="<?php echo AWT_DIR_URI . '/assets/src/svgs/wishlist.svg'; ?>" alt="wishlist">
 					<div class="ml-1 md:ml-0">

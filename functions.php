@@ -42,10 +42,10 @@ if ( ! defined( 'AWT_BUILD_LIB_URI' ) ) {
 
 // File Includes
 require_once AWT_DIR_PATH . '/classes/class-advanced-woocommerce-theme-assets.php';
-require_once AWT_DIR_PATH . '/classes/class-advanced-woocommerce-theme-menus.php';
-require_once AWT_DIR_PATH . '/classes/class-advanced-woocommerce-theme.php';
-
 new Advanced_Woocommerce_Theme_Assets();
+require_once AWT_DIR_PATH . '/classes/class-advanced-woocommerce-theme-menus.php';
+new Advanced_Woocommerce_Theme_Menus();
+require_once AWT_DIR_PATH . '/classes/class-advanced-woocommerce-theme.php';
 new Advanced_Woocommerce_Theme();
 
 
