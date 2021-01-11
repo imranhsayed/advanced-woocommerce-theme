@@ -48,6 +48,7 @@ function awt_register_styles() {
 
 // File Includes
 require_once AWT_DIR_PATH . '/classes/class-advanced-woocommerce-theme-menus.php';
+new Advanced_Woocommerce_Theme_Menus();
 require_once AWT_DIR_PATH . '/classes/class-advanced-woocommerce-theme.php';
 new Advanced_Woocommerce_Theme();
 
