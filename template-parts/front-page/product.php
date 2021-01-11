@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * Product Card Template.
  *
  * @package Advance WooCommerce Theme
@@ -58,4 +59,3 @@ if ( $is_product_in_stock ) {
 	</div>
 	<?php
 }
-

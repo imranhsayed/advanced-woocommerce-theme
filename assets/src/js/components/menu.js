@@ -1,4 +1,3 @@
-
 (function( $ ){
   class Menu {
     constructor() {
