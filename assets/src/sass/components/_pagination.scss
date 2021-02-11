@@ -1,0 +1,15 @@
+.pagination {
+	.page-numbers {
+		display: block;
+		padding: .5rem .75rem;
+		margin: 0 1px;
+		line-height: 1.25;
+
+		&.current,
+		&:hover {
+			color: $white;
+			background-color: $gray-dark-secondary;
+			border-color: $gray-dark-secondary;
+		}
+	}
+}
