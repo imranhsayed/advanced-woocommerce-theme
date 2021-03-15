@@ -166,6 +166,13 @@ class Advanced_Woocommerce_Theme {
 		add_editor_style( 'assets/build/css/editor.css' );
 
 		/**
+		 * For using custom WooCommerce template overrides
+		 *
+		 * @see https://github.com/woocommerce/woocommerce/wiki/Declaring-WooCommerce-support-in-themes
+		 */
+		add_theme_support( 'woocommerce' );
+
+		/**
 		 * Set the maximum allowed width for any content in the theme,
 		 * like oEmbeds and images added to posts
 		 *
